@@ -1,0 +1,27 @@
+[Type] title (#Issue number)
+# [Header]
+# 형식 - [Type] title (#number of issue)
+#
+# [Type] Input list
+#  1. Feat: Add new function
+#  2. Fix: Fix an error/bug
+#  3. Rename: Rename file/directory
+#  4. Remove: Remove file
+#  5. Style: Modify code style without revising functions (ex. Code formating, Missing semicolons)
+#  6. Design: Change UI Design (CSS, etc.)
+#  7. Refactor: Refactoring specific parts of the code base
+#  8. Test: Everything related to testing
+#  9. Docs: Everything related to documentation
+#  10. Chore: Modify build tasks/package managers (modify gitignore, etc.)
+#  11. Perf: Performance improvements
+#
+# [Title] Rule
+# 1. Short summary of 50 characters or less (capitalize the first letter in English)
+# 2. Write in imperative form (no past tense)
+# 3. No periods (.) at the end of the title
+#
+# [Body] Rule
+# 1. A blank line is required between the title and the body (separate the title and body).
+# 2. Optional; provide a detailed explanation if necessary (limited to 72 characters).
+# 3. Explain the changes you made and the reasons for them.
+# - Focus on "what" and "why" rather than "how."

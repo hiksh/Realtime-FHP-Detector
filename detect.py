@@ -19,9 +19,8 @@ class PoseDetector:
     }
   
   def __init__(self, image):
-    # Convert image format
-    image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-    self.mp_iamge = mp.Image(image_format=mp.ImageFormat.SRGB, data=image_rgb)
+    # Convert image format for mediapipe
+    self.mp_iamge = mp.Image(image_format=mp.ImageFormat.SRGB, data=image)
     # Model install
     model_asset_path = os.path.join("models", "pose_landmarker.task") # available in windows / linux
     if not os.path.exists(model_asset_path):

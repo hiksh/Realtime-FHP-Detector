@@ -12,7 +12,8 @@ def main():
         if not success:
             break
         
-        detector = dt.PoseDetector(image)
+        image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+        detector = dt.PoseDetector(image_rgb)
 
         # Make key landmarks for preprocess of training
         if COLLECT == True:
